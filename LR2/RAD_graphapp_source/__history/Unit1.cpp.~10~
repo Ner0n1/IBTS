@@ -1,0 +1,45 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	HINSTANCE hMyDll = LoadLibraryW(L"Bushuev_Anton_DLL.DLL");
+	if (hMyDll == NULL)
+	{
+		Edit1->Text="err";
+	}
+	PAuthor Author;
+	Author = (PAuthor)GetProcAddress(hMyDll,"Author");
+	if (Author == NULL)
+	{
+	   FreeLibrary(hMyDll);
+	   Edit1->Text="err 1";
+       system("STOP");
+	}
+	PVMSGroup Group;
+	Group = (PVMSGroup)GetProcAddress(hMyDll,"Group");
+	if (Group == NULL)
+	{
+	   FreeLibrary(hMyDll);
+	   Edit1->Text="err 2";
+	   system("STOP");
+	}
+
+}
+//---------------------------------------------------------------------------
+
+

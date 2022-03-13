@@ -1,0 +1,4 @@
+LIBRARY File1
+EXPORTS
+	Author
+	Group

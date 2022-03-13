@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022.03.11 19:51:25.188,=C:\Users\A\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022.03.11 19:51:25.327,=C:\Users\A\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2022.03.11 20:01:40.571,C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\File1.cpp=C:\Users\A\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2022.03.11 20:03:50.137,=C:\Users\A\Documents\Embarcadero\Studio\Projects\File2.h</Transaction>
+    <Transaction>2022.03.11 20:06:18.518,C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\File2.h=C:\Users\A\Documents\Embarcadero\Studio\Projects\File2.h</Transaction>
+    <Transaction>2022.03.11 20:06:25.533,C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\Project1PCH1.h=C:\Users\A\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022.03.11 20:06:29.515,C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\Project1.cbproj=C:\Users\A\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2022.03.11 20:17:19.718,=C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\New1.def</Transaction>
+    <Transaction>2022.03.11 21:04:29.310,=C:\Users\A\Documents\Embarcadero\Studio\Projects\Bushuev_DLL\Project1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

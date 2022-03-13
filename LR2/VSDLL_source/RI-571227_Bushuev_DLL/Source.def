@@ -1,0 +1,4 @@
+LIBRARY RI-571227_Bushuev_DLL
+EXPORTS
+	VSGroup
+	VSAuthor
