@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    wcout<<"Author name: "<<VSAuthor() << endl;
+    wcout<<"Student's name: "<<VSAuthor() << endl;
     cout<<"From Group RI-"<<VSGroup() << endl;
     system("PAUSE");
 }
