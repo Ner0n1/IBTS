@@ -14,7 +14,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[]) 
 {
-	cout<<"Автор проекта"<<endl;
+	cout<<"Студент"<<endl;
 	Author();
 	Group();
 	system("PAUSE");
